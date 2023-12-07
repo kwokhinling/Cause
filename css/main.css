@@ -17,6 +17,7 @@ nav{
     display: inline-flex;
     flex-direction: row;
     justify-content:space-between;
+    
 }
 #head1{
     display: inline-flex;
@@ -24,6 +25,7 @@ nav{
     justify-content:space-between;
     margin: 10px;
     margin-bottom: 0px;
+    
 }
 #head2{
     display: inline-flex;
@@ -31,20 +33,60 @@ nav{
     justify-content:space-between;
     margin:20px;
     margin-bottom: 0px;
+    
 }    
 #head2 h6{
     margin-left:20px;
 }
 
 nav a{
-    color:black;
+    color:#707070;
     text-decoration-line: none;
     font-size: 36px;
 }
-
-#block{
+.dropbtn {
+    background-color: white;
+    color: #707070;
+    border: none;
+    font-size: 24px;
+    margin:0px;
+    
+  }
+.dropdown {
     position: relative;
+    display: inline-block;
+    
+    text-decoration-line: none;
+    font-size: 12px;
 
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+    font-size: 12px;
+}  
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a {
+    color: black;
+    padding:10px;
+    font-size :24px;
+    text-decoration: none;
+    display: block;
+  }
+#block{
+    position: absolute;
+    z-index: -1;
     background-color: white;
     margin-top:0px;
     margin-left:60%;
@@ -58,4 +100,8 @@ nav a{
     position: absolute;
     left:5%;
     bottom:5%;
+}
+p{
+    text-align: center;
+    margin: 10%;
 }

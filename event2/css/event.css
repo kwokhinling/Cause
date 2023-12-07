@@ -1,8 +1,6 @@
 *{ 
     margin:0px;
-    cursor:auto;
-   cursor:pointer;
-   cursor:url(../img/money-removebg-preview.png),auto;
+    
 }
 body{
     background-image: url(../img/forest.jpg);
@@ -43,6 +41,7 @@ nav a{
     text-decoration-line: none;
     font-size: 36px;
 }
+
 .dropbtn {
     background-color: white;
     color: #707070;
@@ -54,7 +53,7 @@ nav a{
 .dropdown {
     position: relative;
     display: inline-block;
-   
+    
     text-decoration-line: none;
     font-size: 12px;
 
@@ -77,12 +76,16 @@ nav a{
     display: block;
 }
 .dropdown-content a {
-    color: 707070;
+    color: #707070;
     padding:10px;
     font-size :24px;
     text-decoration: none;
     display: block;
   }
+img{
+    width:70%;
+    height:40%;
+}
 #block{
     position: absolute;
     z-index: -1;
@@ -93,30 +96,43 @@ nav a{
     text-align: center;
     opacity:90%;
 }
-.dog{
-    width:350px;
-    height:350px;
-    background-image: url(../img/sad.jpeg);
-    margin:5%;
-
-}
-.dog:hover{
-    background-image:url(../img/happy.jpeg);
-}
-.clothes{
-    width:600px;
-    height:600px;
-    background-image:url(../img/clothes.png);
-    background-repeat: no-repeat;
-    align-content: center;
-    position: absolute;
-    margin-left: 50%;
-    top:0px;
+.part1{
+    display: inline-flex;
+    justify-content:space-between;
+    margin-right: 20%;
+    
 }
 
-.word{
-    position:absolute;
-    left:5%;
-    top:60%;
+.words1{
+    margin:80px;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.words2{
+    margin:80px;
     font-size: 36px;
+    margin-top: 110px;
+    margin-bottom: 20px;
 }
+.part2{
+    display: inline-flex;
+    justify-content:space-between;
+    margin-right: 10%;
+    
+}
+.words3{
+    margin:80px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.words4{
+    margin:80px;
+    font-size: 36px;
+    margin-top: 5px;
+}
+
+
+
+    
+
+    
