@@ -25,6 +25,9 @@ nav{
     margin: 10px;
     margin-bottom: 0px;
 }
+#head1 img{
+    height:90%;
+    }
 #head2{
     display: inline-flex;
     flex-direction: row;
@@ -132,7 +135,11 @@ img{
     font-size: 36px;
     margin-top: 5px;
 }
-
+.words1,.words2,.words3,.words4{
+    font-family: calluna, serif;
+    font-style: normal;
+    font-weight: 300;
+}
 #ball{
     width:100px;
     height:100px;

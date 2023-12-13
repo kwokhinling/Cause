@@ -27,6 +27,9 @@ nav{
     margin: 10px;
     margin-bottom: 0px;
 }
+#head1 img{
+    height:90%;
+    }
 #head2{
     display: inline-flex;
     flex-direction: row;
@@ -119,4 +122,7 @@ nav a{
     left:5%;
     top:60%;
     font-size: 36px;
+    font-family: calluna, serif;
+    font-style: normal;
+    font-weight: 300;
 }
